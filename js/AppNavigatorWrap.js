@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {StatusBar, Dimensions, Platform} from 'react-native';
+import {StatusBar, Dimensions, Platform, Text} from 'react-native';
 import {connect} from 'react-redux';
 import {Drawer, Container, Button} from 'native-base';
 
-import SideBar from './components/sideBar';
+import SideBar from './components/sideBar/sideBar2';
 
 import AppNavigator from './AppRouteConfigs';
 import {DrawerNavigator} from 'react-navigation';
