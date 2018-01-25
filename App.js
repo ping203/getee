@@ -1,0 +1,11 @@
+import React, { Component } from 'react';
+
+import Setup from './js/setup';
+
+export default class App extends React.Component {
+    render() {
+        return (
+            <Setup />
+        );
+    }
+}
